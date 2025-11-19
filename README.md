@@ -8,9 +8,9 @@ A modern and beautifully designed **Poonam Beauty Parlour Web App** built using 
 
 live hosting :- <a href ="https://691e036fcb30a21d5d43e1cb--cheery-banoffee-400881.netlify.app/">https://691e036fcb30a21d5d43e1cb--cheery-banoffee-400881.netlify.app/</a>
 
-video link
 
-video link :- < a href =""> click here </a>
+
+video link :- < a href =" https://drive.google.com/file/d/1bEIgv8_4gjX_I9viJVSO8m-YP7XKG6bl/view?usp=sharing"> click here </a>
 
 
 ---
