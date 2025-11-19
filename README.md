@@ -1,16 +1,133 @@
-# React + Vite
+# Poonam Beauty Parlour App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and beautifully designed **Poonam Beauty Parlour Web App** built using **Tailwind CSS**, **HTML**, and **simple custom animations**. The goal of this project was to create a visually appealing, responsive, and smooth user experience that showcases beauty services professionally.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎬 Output Preview (Demo Video)
 
-## React Compiler
+live hosting :- <a href ="https://691e036fcb30a21d5d43e1cb--cheery-banoffee-400881.netlify.app/">https://691e036fcb30a21d5d43e1cb--cheery-banoffee-400881.netlify.app/</a>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+video link
 
-## Expanding the ESLint configuration
+video link :- < a href =""> click here </a>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## ✨ Features
+
+✔ Fully responsive UI using **Tailwind CSS**
+✔ Smooth animations (fade, slide, scale) created manually
+✔ Clean and modern layout
+✔ Services, Gallery, Pricing, Testimonials, and Contact sections
+✔ Mobile‑friendly navigation
+✔ Fast-loading and lightweight (static build)
+
+---
+
+## 📁 Project Structure
+
+```
+root/
+│-- index.html
+│-- assets/
+│     ├── img
+│ 
+│-- styles.css 
+│-- README.md
+```
+
+---
+
+## 🧩 Technologies Used
+
+* **HTML5**
+* **Tailwind CSS (CDN)**
+* **Custom CSS Animations**
+* **JavaScript (optional for small interactions)**
+
+---
+
+## 🚀 How to Run
+
+1. Download or clone the project.
+2. Open `index.html` in your browser.
+3. That’s it — no backend or build tools required!
+
+---
+
+## 🌈 UI Sections Included
+
+### 1️⃣ Hero Section
+
+* Banner image
+* Tagline + CTA button
+
+### 2️⃣ About Section
+
+* Parlour introduction
+* Working hours
+
+### 3️⃣ Services Section
+
+* Facial
+* Hair Styling
+* Bridal Makeup
+* Threading
+* Waxing
+* Manicure/Pedicure
+
+### 4️⃣ Gallery
+
+* Before/after images
+* Hover animations
+
+### 5️⃣ Pricing Highlights
+
+* Popular service pricing
+
+### 6️⃣ Testimonials
+
+* Real customer reviews
+
+### 7️⃣ Contact / Booking Section
+
+* Phone number
+* WhatsApp direct booking
+* Location
+
+---
+
+## 🎨 Custom Animations Used
+
+```css
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+```
+
+*(More animations can be added into `styles.css`)*
+
+---
+
+## 🌍 Deployment
+
+The app can be deployed easily on:
+
+* **Netlify** (drag & drop)
+
+
+
+## ❤️ Credits
+
+Designed and developed by **Hetvi patel** using Tailwind CSS + handmade animations.
+
+---
+
+
