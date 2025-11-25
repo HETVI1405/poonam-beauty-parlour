@@ -6,6 +6,8 @@ import Package from './components/Package'
 import Gallery from './components/Gallery'
 import Hairstyle from './components/Hairstyle'
 import AboutUs from './components/AboutUs'
+import Appointment from './components/AppointmentModal'
+
 import Footer from './components/Footer'
 import FlowingMenu from "./components/Flowing";
 
@@ -21,6 +23,7 @@ function App() {
   <Hairstyle />
   <FlowingMenu /> 
   <AboutUs />
+  <Appointment />
   <Footer />
 
 

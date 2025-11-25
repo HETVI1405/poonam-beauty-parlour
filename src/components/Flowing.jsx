@@ -1,7 +1,7 @@
 import React from "react";
 
 const FitnessNameSlide = () => {
-  const items = [ "Follow us on Instagram :- ", "poonam_beautyparlour_ ", "8401050626"];
+  const items = [ "Follow us on Instagram :- ", "poonam_beautyparlour_ ","Book Your Appointment Now :- ", "+91 98241 50609 "];
 
   return (
     <div className="w-full overflow-hidden bg-[#8f4c49] py-2">

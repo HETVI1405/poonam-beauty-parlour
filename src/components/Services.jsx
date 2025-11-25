@@ -22,7 +22,7 @@ export default function Services() {
 
         {/* CARD 1 */}
         <div
-          className="card flip-container w-50 h-50"
+          className="card flip-container w-50 h-50" id="Facial"
           data-aos="zoom-in"
           data-aos-delay="100"
         >
@@ -43,6 +43,7 @@ export default function Services() {
         {/* CARD 2 */}
         <div
           className="card flip-container w-50 h-50"
+          id="Hairstyle"
           data-aos="zoom-in"
           data-aos-delay="200"
         >
@@ -63,6 +64,7 @@ export default function Services() {
         {/* CARD 3 */}
         <div
           className="card flip-container w-50 h-50"
+          id="Makeup"
           data-aos="zoom-in"
           data-aos-delay="300"
         >
@@ -83,6 +85,7 @@ export default function Services() {
         {/* CARD 4 */}
         <div
           className="card flip-container w-50 h-50"
+          id="Spa"
           data-aos="zoom-in"
           data-aos-delay="400"
         >
@@ -103,6 +106,8 @@ export default function Services() {
         {/* CARD 5 */}
         <div
           className="card flip-container w-50 h-50"
+          id
+          ="Keratin"
           data-aos="zoom-in"
           data-aos-delay="500"
         >

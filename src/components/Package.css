@@ -25,3 +25,232 @@
  * ---------------------------------------------- */
 
 @keyframes scale-up-ver-center{0%{transform:scaleY(.4)}100%{transform:scaleY(1)}}
+.wrap {
+  width: 330px;
+  height: 420px;
+  border-radius: 20px;
+  background: #333;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.4s ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.wrap:hover {
+  transform: translateY(-6px);
+}
+
+.image-content {
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.6s ease;
+}
+
+.wrap:hover .image-content {
+  transform: scale(1.08);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: rgba(0,0,0,0.65);
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.6s ease;
+}
+
+.wrap:hover .overlay {
+  left: 0;
+}
+
+.overlay-content h1 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.overlay-content p {
+  font-size: 14px;
+}
+
+.text {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.dots {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 6px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 0.3s ease;
+}
+
+.wrap:hover .dot {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* WIDER CARD */
+.wrap-card {
+
+  width: 310px;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+  border: 6px solid;
+  border-image: linear-gradient(-50deg, #8f4c49, #6f3b38, #8f4c49) 1;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  background: pink;
+  display: flex;
+}
+
+/* LEFT — IMAGE */
+.image-card {
+  width: 55%;          /* normal state */
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s ease-in-out;
+  background: #fff;
+}
+
+/* RIGHT — TEXT */
+.overlay-card {
+  width: 45%;          /* normal state */
+  height: 100%;
+  background: #6f3b38;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  transition: 0.4s ease-in-out;
+}
+
+/* ---------- HOVER STATE ---------- */
+
+.wrap-card:hover .image-card {
+  width: 30%;          /* IMAGE SMALLER */
+  filter: brightness(1.05);
+}
+
+.wrap-card:hover .overlay-card {
+  width: 70%;          /* TEXT BIGGER */
+}
+
+/* ---------- TEXT ---------- */
+
+.card-title {
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: white;
+}
+
+.price {
+  color: #c39b9b;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* ---------- BUTTON ---------- */
+
+.book-btn {
+  background: #8f4c49;
+  color: white;
+  padding: 6px 14px;
+  font-size: 0.75rem;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.book-btn:hover {
+  background: #6f3b38;
+}
+
+/* ---------- ANIMATIONS ---------- */
+
+.animate-pop {
+  animation: pop 0.6s ease-out backwards;
+}
+@keyframes pop {
+  0% { opacity: 0; transform: scale(0.6); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.animate-slide-left {
+  animation: slide-left 0.7s ease-out backwards;
+}
+@keyframes slide-left {
+  0% { opacity: 0; transform: translateX(-40px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+.animate-slide-down {
+  animation: slide-down 0.7s ease-out backwards;
+}
+@keyframes slide-down {
+  0% { opacity: 0; transform: translateY(-40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.wrap-card {
+  width: 510px;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+  border: 6px solid;
+  border-image: linear-gradient(-50deg, #8f4c49, #6f3b38, #8f4c49) 1;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  background: pink;
+  display: flex;
+}
+
+/* LEFT — IMAGE */
+.image-card {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease-in-out;
+  background: #fff;
+  overflow: hidden;
+  
+}
+
+/* IMAGE inside */
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* Prevent shrinking issue */
+  transition: transform 0.4s ease-in-out;
+}
+
+/* HOVER EFFECT */
+.wrap-card:hover .image-card {
+  width: 65%;    /* expand slightly */
+}
+
+.wrap-card:hover .image-card img {
+  transform: scale(1.08);  /* zoom smoothly instead of shrinking */
+}

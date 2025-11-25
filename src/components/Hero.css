@@ -186,3 +186,77 @@
   0% { transform: scale(1); }
   100% { transform: scale(1.08); }
 }
+.branch {
+  stroke: #d7a18f;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  stroke-dasharray: 900;
+  stroke-dashoffset: 900;
+  animation: drawBranch 2.2s ease forwards;
+}
+
+@keyframes drawBranch {
+  to { stroke-dashoffset: 0; }
+}
+
+.leaf {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: leafPop 0.8s ease forwards;
+  animation-delay: 1.6s;
+}
+
+@keyframes leafPop {
+  0% { opacity: 0; transform: scale(0.5); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.flower {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: flowerGlow 1s ease forwards;
+  animation-delay: 2.2s;
+}
+
+@keyframes flowerGlow {
+  0% { opacity: 0; transform: scale(0.7); filter: drop-shadow(0 0 0px #f7c8b6); }
+  100% { opacity: 1; transform: scale(1); filter: drop-shadow(0 0 10px #f7c8b6); }
+}
+.branch {
+  stroke: #d7a18f;
+  stroke-width: 10;
+  stroke-linecap: round;
+  fill: none;
+  stroke-dasharray: 900;
+  stroke-dashoffset: 900;
+  animation: drawBranch 2s ease forwards;
+}
+
+@keyframes drawBranch {
+  to { stroke-dashoffset: 0; }
+}
+
+.flower {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: flowerPop 0.8s ease forwards;
+  animation-delay: 2.1s;  /* branch ke baad */
+}
+
+@keyframes flowerPop {
+  0% { opacity: 0; transform: scale(0.4); filter: drop-shadow(0 0 0px #f5c3b5); }
+  100% { opacity: 1; transform: scale(1); filter: drop-shadow(0 0 10px #f5c3b5); }
+}
+@media (max-width: 492px) {
+  .floral-svg {
+    width: 180px;   /* apne hisab se set karo (kam width) */
+    height: 200px;  
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
