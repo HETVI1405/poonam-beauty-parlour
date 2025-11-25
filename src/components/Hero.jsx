@@ -286,10 +286,10 @@ export default function Hero() {
     <div id="Hero" style={{ backgroundColor: "#faddcd" }}>
       {/* ---------------- NAVBAR ---------------- */}
       <header className="fixedtop-0 z-10 bg-[#faddcd] shadow-md">
-        <nav className="mx-auto flex  items-center justify-between p-4 h-14">
+        <nav className="mx-auto flex  items-center justify-between p-4 h-20">
           {/* LOGO */}
           <a href="#" className="">
-            <img src={logo} alt="Logo" className="h-20 w-[80px]" />
+            <img src="/logo2.png" alt="Logo" className="h-25 w-[90px]" />
           </a>
 
           {/* HAMBURGER BUTTON */}
