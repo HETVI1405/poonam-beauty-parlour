@@ -6,7 +6,7 @@ A modern and beautifully designed **Poonam Beauty Parlour Web App** built using 
 
 ## 🎬 Output Preview 
 
-live hosting :- <a href ="https://poonam-beauty-parlour-git-main-hetvi1405s-projects.vercel.app/">https://poonam-beauty-parlour-git-main-hetvi1405s-projects.vercel.app/</a>
+live hosting :- <a href ="parlour https://share.google/56yJbYAg0c8k5PYW9">https://poonam-beauty-parlour-git-main-hetvi1405s-projects.vercel.app/</a>
 
 
 
