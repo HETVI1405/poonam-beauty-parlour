@@ -54,34 +54,40 @@ export default function AboutUs() {
 
       </div>
 
-      {/* AWARDS SECTION */}
-      <h3
-        className="text-3xl font-bold text-center text-[#6f3b38] mb-8"
-      >
-        Awarded & Honored By
-      </h3>
+     {/* AWARDS SECTION */}
+<div className="py-16 bg-white">
+  <h3 className="text-3xl font-bold text-center text-[#6f3b38] mb-10">
+    Awarded & Honored By
+  </h3>
 
-      <div className="flex flex-col md:flex-row gap-10 justify-center items-center">
+  <div className="flex flex-col md:flex-row gap-10 justify-center items-center">
 
-        <div
-          className="w-[390px] rounded-2xl overflow-hidden shadow-2xl hover:shadow-[0px_0px_20px_rgba(0,0,0,0.35)] transition-all"
-        >
-          <img src="/award2.png" className="w-full h-[430px] object-cover" />
-          <p className="text-center text-lg mt-3 font-semibold px-6 py-3 text-[#6f3b38]">
-            Awarded by Bollywood Actress Amisha Patel
-          </p>
-        </div>
+    {/* CARD 1 */}
+    <div className="w-[390px] rounded-2xl overflow-hidden shadow-2xl hover:scale-[1.03] transition-all duration-500">
+      <img
+        src="/award2.png"
+        className="w-full h-[430px] object-cover"
+        alt="Award 1"
+      />
+      <p className="text-center text-lg mt-3 font-semibold px-6 py-3 text-[#6f3b38]">
+        Awarded by Bollywood Actress Amisha Patel
+      </p>
+    </div>
 
-        <div
-          className="w-[390px] rounded-2xl overflow-hidden shadow-2xl hover:shadow-[0px_0px_20px_rgba(0,0,0,0.35)] transition-all"
-        >
-          <img src="/award1.png" className="w-full h-[430px] object-cover" />
-          <p className="text-center text-lg mt-3 font-semibold px-6 py-3 text-[#6f3b38]">
-            Awarded by Actress & Model Sana Sultan Khan
-          </p>
-        </div>
+    {/* CARD 2 */}
+    <div className="w-[390px] rounded-2xl overflow-hidden shadow-2xl hover:scale-[1.03] transition-all duration-500">
+      <img
+        src="/award1.png"
+        className="w-full h-[430px] object-cover"
+        alt="Award 2"
+      />
+      <p className="text-center text-lg mt-3 font-semibold px-6 py-3 text-[#6f3b38]">
+        Awarded by Actress & Model Sana Sultan Khan
+      </p>
+    </div>
+  </div>
+</div>
 
-      </div>
     </section>
   );
 }
